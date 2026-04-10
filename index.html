@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Edge Salon | Premium Haircare &amp; Styling – Agra</title>
+    <meta name="description"
+        content="Elite Edge Salon – Agra's premier luxury haircare and styling destination. Expert stylists, organic products, bridal packages and more. Book your appointment online.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOAST -->
+    <div class="toast" id="toast"></div>
+
+    <!-- STICKY BAR -->
+    <div class="sticky-bar">
+        <a href="https://wa.me/919548941304?text=Hi%20Elite%20Edge!%20I%27d%20like%20to%20book%20an%20appointment."
+            target="_blank" rel="noopener" class="sbtn wa">
+            <i class="fa-brands fa-whatsapp"></i><span>WhatsApp Us</span>
+        </a>
+        <div class="sdiv"></div>
+        <a href="#booking" class="sbtn bk" id="bookBtn">
+            <i class="fa-regular fa-calendar-check"></i><span>Book Appointment</span>
+        </a>
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div class="mob-nav" id="mobNav">
+        <button class="mob-close" id="mobClose"><i class="fa-solid fa-xmark"></i></button>
+        <a href="#home" class="mlink">Home</a>
+        <a href="#about" class="mlink">About</a>
+        <a href="#whyus" class="mlink">Why Us</a>
+        <a href="#services" class="mlink">Services</a>
+        <a href="#booking" class="mlink">Book</a>
+        <a href="#testimonials" class="mlink">Reviews</a>
+        <a href="#gallery" class="mlink">Gallery</a>
+        <a href="#contact" class="mlink">Contact</a>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="nav">
+        <div class="nav-wrap">
+            <a href="#home" class="logo">ELITE<em>EDGE</em></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#whyus">Why Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#booking">Book</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#booking" class="nav-cta mlink">Reserve Now</a>
+            <button class="hamburger" id="ham"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="ring r1"></div>
+        <div class="ring r2"></div>
+        <div class="ring r3"></div>
+        <div class="hero-panel">
+            <div class="hero-panel-bg">
+                <i class="fa-solid fa-scissors"></i>
+                <span>Elite Edge Salon &amp; Styling</span>
+            </div>
+            <div class="hero-badge"><span>Premium Agra Salon &nbsp;&middot;&nbsp; Est. 2009</span></div>
+        </div>
+        <div class="hero-inner">
+            <div class="eyebrow"><span>India's Premier Grooming Destination</span></div>
+            <h1>Transform Your<br><em>Signature</em> Look</h1>
+            <p class="hero-sub">Luxury haircare &amp; bespoke styling tailored to your lifestyle. Experience world-class
+                grooming in the heart of Agra.</p>
+            <div class="hero-btns">
+                <a href="#booking" class="btn-w mlink">Reserve Appointment</a>
+                <a href="#services" class="btn-g">Explore Services</a>
+            </div>
+            <div class="hero-nums">
+                <div class="hnum"><strong>15+</strong><span>Yrs Experience</span></div>
+                <div class="hnum"><strong>12K+</strong><span>Happy Clients</span></div>
+                <div class="hnum"><strong>8</strong><span>Expert Stylists</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TICKER -->
+    <div class="ticker-sec">
+        <div class="ticker-track" id="tickerTrack"></div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="sec" id="about">
+        <div class="wrap">
+            <div class="about-grid">
+                <div class="about-imgs reveal fl">
+                    <div class="ibox main">
+                        <div class="imock"><i class="fa-regular fa-image"></i><span>Salon Interior</span></div>
+                        <div class="istrip">Elite Edge Flagship &middot; Agra</div>
+                    </div>
+                    <div class="ibox float">
+                        <div class="imock"><i class="fa-solid fa-scissors"></i><span>Expert Stylist</span></div>
+                        <div class="istrip">Master Stylists</div>
+                    </div>
+                    <div class="badge"><strong>15+</strong><small>Years of<br>Excellence</small></div>
+                </div>
+                <div class="about-body reveal fr">
+                    <div class="sec-tag"><span>The Elite Philosophy</span></div>
+                    <h2 class="sec-title">Crafting Confidence<br>Through <em>Artistry</em></h2>
+                    <p>At Elite Edge, we believe hair is more than just a look — it's a statement of your identity. With
+                        roots deep in Agra and a vision for world-class grooming, we blend traditional Indian haircare
+                        wisdom with modern styling techniques.</p>
+                    <p>Our master stylists study your face shape, lifestyle and personality to create a bespoke look
+                        that feels authentically you — every single time.</p>
+                    <div class="feat-grid">
+                        <div class="feat"><i class="fa-solid fa-heart"></i>
+                            <h4>Personalised Care</h4>
+                            <p>One-on-one consultations for your unique goals</p>
+                        </div>
+                        <div class="feat"><i class="fa-solid fa-leaf"></i>
+                            <h4>Organic Products</h4>
+                            <p>Sulfate-free, Ayurvedic-inspired formulas</p>
+                        </div>
+                        <div class="feat"><i class="fa-solid fa-trophy"></i>
+                            <h4>Award Winning</h4>
+                            <p>24+ industry recognitions since 2009</p>
+                        </div>
+                        <div class="feat"><i class="fa-solid fa-shield-halved"></i>
+                            <h4>Hygiene First</h4>
+                            <p>Certified sanitisation protocols always</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <div class="bg-dark sec" style="padding:0">
+        <div class="wrap">
+            <div class="stats-row">
+                <div class="stat-cell reveal d1"><span class="snum" data-to="15">0</span><span class="slbl">Years
+                        Experience</span></div>
+                <div class="stat-cell reveal d2"><span class="snum" data-to="12">0</span><span class="slbl">Thousand
+                        Happy Clients</span></div>
+                <div class="stat-cell reveal d3"><span class="snum" data-to="8">0</span><span class="slbl">Master
+                        Stylists</span></div>
+                <div class="stat-cell reveal d4"><span class="snum" data-to="24">0</span><span class="slbl">Industry
+                        Awards</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WHY US -->
+    <section class="sec bg-light" id="whyus">
+        <div class="wrap">
+            <div class="centered reveal">
+                <div class="sec-tag"><span>Why Choose Us</span></div>
+                <h2 class="sec-title">Why <em>Elite Edge</em></h2>
+                <p class="sec-desc">Discover what sets us apart in Agra's premium salon scene.</p>
+            </div>
+            <div class="feat-grid">
+                <div class="feat reveal d1"><i class="fa-solid fa-trophy"></i>
+                    <h4>Expertise</h4>
+                    <p>With over 15 years of experience in Agra's premier hair care industry, our internationally
+                        trained stylists bring global techniques and local expertise to every cut, color, and treatment.
+                        Certified in the latest trends and sustainable practices, they ensure your hair not only looks
+                        stunning but remains healthy and vibrant.</p>
+                </div>
+                <div class="feat reveal d2"><i class="fa-solid fa-star"></i>
+                    <h4>Premium Quality</h4>
+                    <p>We exclusively use premium, organic, and sulfate-free products from trusted brands like
+                        Kerastase, L'Oreal Professionnel, and Biotique. These formulations are gentle on your hair and
+                        scalp, providing long-lasting results without harsh chemicals, promoting natural shine,
+                        strength, and volume.</p>
+                </div>
+                <div class="feat reveal d3"><i class="fa-solid fa-heart"></i>
+                    <h4>Personalized Care</h4>
+                    <p>Every client receives a bespoke consultation where we assess your hair type, face shape,
+                        lifestyle, and personal style preferences. Our stylists craft a customized treatment plan, from
+                        haircut designs to color matching, ensuring each visit is tailored to enhance your unique beauty
+                        and confidence.</p>
+                </div>
+                <div class="feat reveal d1"><i class="fa-solid fa-shield"></i>
+                    <h4>Safety First</h4>
+                    <p>Your health and safety are our top priorities. We adhere to strict hygiene protocols, including
+                        sterilized tools, disposable barriers, and certified sanitization standards. During these times,
+                        we maintain enhanced cleaning routines, spaced appointments, and provide contactless services to
+                        keep you safe and comfortable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="sec" id="services">
+        <div class="wrap">
+            <div class="centered reveal">
+                <div class="sec-tag"><span>Our Expertise</span></div>
+                <h2 class="sec-title">Premium <em>Services</em></h2>
+                <p class="sec-desc">Curated treatments and styling designed for the modern Indian individual.</p>
+            </div>
+            <div class="srv-grid">
+                <div class="srv-card reveal d1">
+                    <div class="srv-thumb">
+                        <div class="srv-mock tc1"><i class="fa-solid fa-scissors"></i><span>Signature Cut</span></div>
+                        <div class="srv-overlay"><span>Quick Book</span></div>
+                    </div>
+                    <div class="srv-body">
+                        <div class="srv-ico"><i class="fa-solid fa-scissors"></i></div>
+                        <h3>Signature Cut</h3>
+                        <p>Precision cutting with relaxing wash and scalp massage. Tailored to your face shape.</p>
+                        <div class="srv-foot"><span class="price">&#8377;699</span><button class="btn-dark"
+                                data-svc="Signature Cut">Book Now</button></div>
+                    </div>
+                </div>
+                <div class="srv-card reveal d2">
+                    <div class="srv-thumb">
+                        <div class="srv-mock tc2"><i class="fa-solid fa-palette"></i><span>Artisanal Colour</span></div>
+                        <div class="srv-overlay"><span>Quick Book</span></div>
+                    </div>
+                    <div class="srv-body">
+                        <div class="srv-ico"><i class="fa-solid fa-palette"></i></div>
+                        <h3>Artisanal Colour</h3>
+                        <p>Balayage, highlights, ombre and global colour. Bespoke techniques for every hair type.</p>
+                        <div class="srv-foot"><span class="price">&#8377;1,499</span><button class="btn-dark"
+                                data-svc="Artisanal Colour">Book Now</button></div>
+                    </div>
+                </div>
+                <div class="srv-card reveal d3">
+                    <div class="srv-thumb">
+                        <div class="srv-mock tc3"><i class="fa-solid fa-wand-magic-sparkles"></i><span>Keratin</span>
+                        </div>
+                        <div class="srv-overlay"><span>Quick Book</span></div>
+                    </div>
+                    <div class="srv-body">
+                        <div class="srv-ico"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                        <h3>Keratin Treatment</h3>
+                        <p>Smooth, frizz-free hair lasting 3–5 months. Perfect for India's climate.</p>
+                        <div class="srv-foot"><span class="price">&#8377;3,999</span><button class="btn-dark"
+                                data-svc="Keratin Treatment">Book Now</button></div>
+                    </div>
+                </div>
+                <div class="srv-card reveal d1">
+                    <div class="srv-thumb">
+                        <div class="srv-mock tc4"><i class="fa-solid fa-ring"></i><span>Bridal</span></div>
+                        <div class="srv-overlay"><span>Quick Book</span></div>
+                    </div>
+                    <div class="srv-body">
+                        <div class="srv-ico"><i class="fa-solid fa-ring"></i></div>
+                        <h3>Bridal Package</h3>
+                        <p>Complete bridal grooming — hair, skin prep and styling for your special day.</p>
+                        <div class="srv-foot"><span class="price">&#8377;12,999</span><button class="btn-dark"
+                                data-svc="Bridal Package">Book Now</button></div>
+                    </div>
+                </div>
+                <div class="srv-card reveal d2">
+                    <div class="srv-thumb">
+                        <div class="srv-mock tc5"><i class="fa-solid fa-spa"></i><span>Scalp Spa</span></div>
+                        <div class="srv-overlay"><span>Quick Book</span></div>
+                    </div>
+                    <div class="srv-body">
+                        <div class="srv-ico"><i class="fa-solid fa-spa"></i></div>
+                        <h3>Scalp Spa Ritual</h3>
+                        <p>Ayurvedic oil massage and deep conditioning. Nourishes from root to tip.</p>
+                        <div class="srv-foot"><span class="price">&#8377;999</span><button class="btn-dark"
+                                data-svc="Scalp Spa Ritual">Book Now</button></div>
+                    </div>
+                </div>
+                <div class="srv-card reveal d3">
+                    <div class="srv-thumb">
+                        <div class="srv-mock tc6"><i class="fa-solid fa-crown"></i><span>Elite Styling</span></div>
+                        <div class="srv-overlay"><span>Quick Book</span></div>
+                    </div>
+                    <div class="srv-body">
+                        <div class="srv-ico"><i class="fa-solid fa-crown"></i></div>
+                        <h3>Elite Styling</h3>
+                        <p>Party, event or everyday styling. Blowdry, curls, straightening and updos.</p>
+                        <div class="srv-foot"><span class="price">&#8377;799</span><button class="btn-dark"
+                                data-svc="Elite Styling">Book Now</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="sec-gallery bg-dark" id="gallery">
+        <div class="wrap">
+            <div class="gal-header reveal">
+                <div>
+                    <div class="sec-tag"><span>Visual Journal</span></div>
+                    <h2 class="sec-title light" style="margin-bottom:0">Latest <em>Transformations</em></h2>
+                </div>
+                <a href="#" class="gal-view-all">View All &rarr;</a>
+            </div>
+
+            <!-- Pair 1 -->
+            <div class="gal-pair">
+                <div class="gal-item reveal fl d1">
+                    <div class="gal-inner g1">
+                        <i class="fa-solid fa-scissors"></i>
+                        <span>Before &amp; After</span>
+                    </div>
+                    <div class="gal-label">
+                        <span class="gal-num">01</span>
+                        <span class="gal-txt">Hair Transformation &middot; Balayage</span>
+                    </div>
+                </div>
+                <div class="gal-item reveal fr d2">
+                    <div class="gal-inner g2">
+                        <i class="fa-regular fa-user"></i>
+                        <span>Client Portrait</span>
+                    </div>
+                    <div class="gal-label">
+                        <span class="gal-num">02</span>
+                        <span class="gal-txt">Signature Cut &middot; Women's</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pair 2 -->
+            <div class="gal-pair">
+                <div class="gal-item reveal fl d2">
+                    <div class="gal-inner g4">
+                        <i class="fa-solid fa-ring"></i>
+                        <span>Bridal Look</span>
+                    </div>
+                    <div class="gal-label">
+                        <span class="gal-num">03</span>
+                        <span class="gal-txt">Bridal Package &middot; Full Styling</span>
+                    </div>
+                </div>
+                <div class="gal-item reveal fr d3">
+                    <div class="gal-inner g3">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <span>Keratin Result</span>
+                    </div>
+                    <div class="gal-label">
+                        <span class="gal-num">04</span>
+                        <span class="gal-txt">Keratin Smoothing Treatment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOKING -->
+    <section class="sec bg-dark" id="booking">
+        <div class="wrap">
+            <div class="book-grid">
+                <div class="book-info reveal fl">
+                    <div class="sec-tag"><span>Reservations</span></div>
+                    <h2 class="sec-title light">Book Your <em>Session</em></h2>
+                    <p class="sec-desc" style="color:rgba(255,255,255,.45);margin-bottom:28px">Reserve your spot with
+                        our expert stylists. We guarantee punctuality, premium products and a five-star experience every
+                        time.</p>
+                    <div class="perks">
+                        <div class="perk">
+                            <div class="perk-ic"><i class="fa-solid fa-check"></i></div>Free consultation with every
+                            booking
+                        </div>
+                        <div class="perk">
+                            <div class="perk-ic"><i class="fa-solid fa-check"></i></div>Flexible rescheduling up to 4
+                            hours prior
+                        </div>
+                        <div class="perk">
+                            <div class="perk-ic"><i class="fa-solid fa-check"></i></div>Complimentary tea or coffee on
+                            arrival
+                        </div>
+                        <div class="perk">
+                            <div class="perk-ic"><i class="fa-solid fa-check"></i></div>All premium products included in
+                            price
+                        </div>
+                        <div class="perk">
+                            <div class="perk-ic"><i class="fa-solid fa-check"></i></div>WhatsApp confirmation within 30
+                            minutes
+                        </div>
+                    </div>
+                </div>
+                <div class="bform reveal fr">
+                    <h3>Reserve Your Appointment</h3>
+                    <form id="bForm">
+                        <div class="frow">
+                            <div class="fg"><label>Full Name</label><input type="text" id="bName"
+                                    placeholder="Priya Sharma" required></div>
+                            <div class="fg"><label>Phone Number</label><input type="tel" placeholder="+91 98765 43210"
+                                    required></div>
+                            <div class="fg"><label>Email Address</label><input type="email"
+                                    placeholder="priya@email.com"></div>
+                            <div class="fg"><label>Preferred Stylist</label>
+                                <select>
+                                    <option>Any Available Stylist</option>
+                                    <option>Riya Kapoor – Colour Expert</option>
+                                    <option>Arjun Singh – Cuts &amp; Styling</option>
+                                    <option>Neha Gupta – Bridal Specialist</option>
+                                    <option>Vikram Joshi – Hair Treatments</option>
+                                </select>
+                            </div>
+                            <div class="fg"><label>Service</label>
+                                <select id="bService">
+                                    <option value="">Select a Service</option>
+                                    <option value="Signature Cut">Signature Cut</option>
+                                    <option value="Artisanal Colour">Artisanal Colour</option>
+                                    <option value="Keratin Treatment">Keratin Treatment</option>
+                                    <option value="Bridal Package">Bridal Package</option>
+                                    <option value="Scalp Spa Ritual">Scalp Spa Ritual</option>
+                                    <option value="Elite Styling">Elite Styling</option>
+                                </select>
+                            </div>
+                            <div class="fg"><label>Preferred Date</label><input type="date" id="bDate"></div>
+                            <div class="fg"><label>Preferred Time</label>
+                                <select>
+                                    <option>09:00 AM</option>
+                                    <option>10:00 AM</option>
+                                    <option>11:00 AM</option>
+                                    <option>12:00 PM</option>
+                                    <option>01:00 PM</option>
+                                    <option>02:00 PM</option>
+                                    <option>03:00 PM</option>
+                                    <option>04:00 PM</option>
+                                    <option>05:00 PM</option>
+                                    <option>06:00 PM</option>
+                                    <option>07:00 PM</option>
+                                </select>
+                            </div>
+                            <div class="fg full"><label>Special Requests</label><textarea rows="3"
+                                    placeholder="Allergies, preferences, or anything we should know..."></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-submit">Confirm Booking</button>
+                        <p class="form-note"><i class="fa-solid fa-lock"></i>&nbsp;Your info is safe. Confirmation
+                            within 30 minutes.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="sec" id="testimonials">
+        <div class="wrap">
+            <div class="centered reveal">
+                <div class="sec-tag"><span>Client Stories</span></div>
+                <h2 class="sec-title">What Our Clients <em>Say</em></h2>
+            </div>
+            <div class="testi-outer">
+                <div class="testi-track" id="tTrack">
+                    <div class="tcard on">
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote>"The best salon experience I have ever had in Agra. My keratin treatment lasted
+                            months and my hair has never looked so healthy!"</blockquote>
+                        <div class="tauthor">
+                            <div class="avt">P</div>
+                            <div>
+                                <div class="aname">Priya Mehta</div>
+                                <div class="arole">Software Engineer, Agra</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tcard">
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote>"I booked the bridal package and the team exceeded every expectation. I felt like a
+                            queen from start to finish. Simply flawless."</blockquote>
+                        <div class="tauthor">
+                            <div class="avt">A</div>
+                            <div>
+                                <div class="aname">Ananya Sharma</div>
+                                <div class="arole">School Principal, Mathura</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tcard">
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote>"Riya is an absolute wizard with colour. I wanted balayage and the result was
+                            exactly what I pictured. 10 out of 10, every time."</blockquote>
+                        <div class="tauthor">
+                            <div class="avt">S</div>
+                            <div>
+                                <div class="aname">Sanaya Rao</div>
+                                <div class="arole">Fashion Blogger</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tcard">
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote>"The scalp spa treatment is a game changer. I walk out feeling completely
+                            de-stressed and my hair feels so much thicker!"</blockquote>
+                        <div class="tauthor">
+                            <div class="avt">R</div>
+                            <div>
+                                <div class="aname">Rohit Batra</div>
+                                <div class="arole">Businessman, Agra</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tcard">
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote>"Elite Edge is in a league of their own. The ambience, the staff, the results —
+                            everything is world class. Worth every rupee!"</blockquote>
+                        <div class="tauthor">
+                            <div class="avt">D</div>
+                            <div>
+                                <div class="aname">Divya Agarwal</div>
+                                <div class="arole">Doctor, Agra</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tcontrols">
+                <button class="tarr" id="tPrev"><i class="fa-solid fa-arrow-left"></i></button>
+                <div class="tdots" id="tDots"></div>
+                <button class="tarr" id="tNext"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="sec" id="contact">
+        <div class="wrap">
+            <div class="contact-grid">
+                <div class="reveal fl">
+                    <div class="sec-tag"><span>Find Us</span></div>
+                    <h2 class="sec-title">Visit Our <em>Salon</em></h2>
+                    <p style="color:var(--grey);font-size:15px;line-height:1.85">Experience the Elite Edge touch at our
+                        flagship salon in the heart of Agra. Walk-ins welcome; appointments preferred.</p>
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <div class="info-ic"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h5>Address</h5>
+                                <p>12 MG Road, Sanjay Place, Agra, UP 282001</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-ic"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h5>Phone</h5>
+                                <p>+91 95489 41304</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-ic"><i class="fa-solid fa-clock"></i></div>
+                            <div>
+                                <h5>Hours</h5>
+                                <p>Tuesday – Sunday &nbsp; 9:00 AM – 9:00 PM<br><small style="color:#bbb">Monday
+                                        Closed</small></p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-ic"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div>
+                                <h5>WhatsApp</h5>
+                                <p>+91 95489 41304 &nbsp;(Quick replies)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-box"><i class="fa-solid fa-map-pin" style="color:var(--gold)"></i><span>Map &middot;
+                            Elite Edge Salon, MG Road, Agra</span></div>
+                </div>
+                <div class="cform reveal fr">
+                    <h3>Send a Message</h3>
+                    <p>Have a question or special request? We will reply within a few hours.</p>
+                    <form id="cForm">
+                        <div class="fg"><label>Full Name</label><input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="fg"><label>Email Address</label><input type="email" placeholder="your@email.com"
+                                required></div>
+                        <div class="fg"><label>Phone</label><input type="tel" placeholder="+91 98765 43210"></div>
+                        <div class="fg"><label>Message</label><textarea rows="5" placeholder="How can we help you?"
+                                required></textarea></div>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="wrap">
+            <div class="foot-grid">
+                <div>
+                    <a href="#home" class="foot-logo">ELITE<em>EDGE</em></a>
+                    <p class="foot-desc">Redefining luxury hair styling in Agra since 2009. Blending traditional Indian
+                        craftsmanship with modern innovation.</p>
+                    <div class="socials">
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="foot-col">
+                    <h4>Services</h4>
+                    <ul class="foot-links">
+                        <li><a href="#services">Signature Cuts</a></li>
+                        <li><a href="#services">Artisanal Colouring</a></li>
+                        <li><a href="#services">Keratin Treatment</a></li>
+                        <li><a href="#services">Scalp Spa Ritual</a></li>
+                        <li><a href="#services">Bridal Packages</a></li>
+                        <li><a href="#services">Elite Styling</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4>Quick Links</h4>
+                    <ul class="foot-links">
+                        <li><a href="#about">Our Story</a></li>
+                        <li><a href="#booking">Book Appointment</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#">Gift Vouchers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h4>Newsletter</h4>
+                    <p class="foot-desc">Subscribe for styling tips and exclusive seasonal offers.</p>
+                    <div class="news-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="button" id="newsBtn">Join</button>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-bottom">
+                <p>&copy; 2026 Elite Edge Salon, Agra. All rights reserved.</p>
+                <div class="pay-ic">
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                    <i class="fa-brands fa-cc-apple-pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
